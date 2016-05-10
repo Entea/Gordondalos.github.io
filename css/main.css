@@ -8849,3 +8849,20 @@ Superlative, ╤В╨╛╨╗╤М╨║╨╛ ╤Б ╨╕╤Б╨┐╨╛╨
 a:hover, a:focus, a:active, a:link {
   outline: none !important;
 }
+
+/* line 2, ../sass/pages/_index.sass */
+.history ul {
+  padding-left: 2rem;
+}
+/* line 4, ../sass/pages/_index.sass */
+.history ul li {
+  list-style-type: disc !important;
+}
+/* line 6, ../sass/pages/_index.sass */
+.history ol {
+  padding-left: 2rem;
+}
+/* line 8, ../sass/pages/_index.sass */
+.history ol li {
+  list-style-type: decimal !important;
+}
