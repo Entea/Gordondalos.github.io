@@ -7,7 +7,7 @@ main.config(['$routeProvider', function($routeProvide){
     })
         .when ('/history',{
         templateUrl:'view/history.html',
-        //controller: 'history'
+        controller: 'historyCtrl'
     })
         .when ('/skill',{
         templateUrl:'view/skill.html',

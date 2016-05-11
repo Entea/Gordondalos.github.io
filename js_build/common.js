@@ -4,10 +4,18 @@
 
 var main = angular.module('main',[
     'ngRoute',
-    'ngResource'
+    'ngResource',
+    'angularMoment'
 
 ]);
-main.controller('mainCtrl', ['$scope', function($scope){
+'use strict';
+var mainCtrl = main.controller('mainCtrl', ['$scope', function($scope){
+
+}]);
+
+var historyCtrl = main.controller('historyCtrl', ['$scope', function($scope){
+  $scope.age = moment().format('YYYY') - 1982;
+
 
 }]);
 main.config(['$routeProvider', function($routeProvide){
@@ -19,7 +27,7 @@ main.config(['$routeProvider', function($routeProvide){
     })
         .when ('/history',{
         templateUrl:'view/history.html',
-        //controller: 'history'
+        controller: 'historyCtrl'
     })
         .when ('/skill',{
         templateUrl:'view/skill.html',
