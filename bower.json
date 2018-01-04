@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "authors": [
+    "Gordondalos <Gordondalos@gmail.com>"
+  ],
+  "description": "my portfolio",
+  "main": "",
+  "license": "MIT",
+  "homepage": "gordondalos.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "strict-reset.css": "^0.5.2",
+    "angular-route": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular": "1.5.x",
+    "tether": "^1.3.2"
+  }
+}
